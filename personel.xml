@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<personel>
+  <xs:schema id="personel" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="personel" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="kisi">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Ad" type="xs:string" minOccurs="0" />
+                <xs:element name="Soyad" type="xs:string" minOccurs="0" />
+                <xs:element name="Tc" type="xs:string" minOccurs="0" />
+                <xs:element name="username" type="xs:string" minOccurs="0" />
+                <xs:element name="password" type="xs:string" minOccurs="0" />
+                <xs:element name="uzmanlik" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <kisi>
+    <Ad>Ayse</Ad>
+    <Soyad>Hemsire</Soyad>
+    <Tc>1132131</Tc>
+    <username>personel</username>
+    <password>personel</password>
+    <uzmanlik>Prof</uzmanlik>
+  </kisi>
+  <kisi>
+    <Ad>q</Ad>
+    <Soyad>q</Soyad>
+    <Tc>1313</Tc>
+    <username>p</username>
+    <password>p</password>
+    <uzmanlik>adasd</uzmanlik>
+  </kisi>
+</personel>
